@@ -1,38 +1,7 @@
+"use strict";var o=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var q=o(function(z,s){
+var f=require('@stdlib/math-base-assert-is-integer/dist'),t=require('@stdlib/math-base-assert-is-nan/dist'),d=require('@stdlib/math-base-special-floor/dist'),v=require('@stdlib/math-base-special-ln/dist'),p=require('@stdlib/constants-float64-ninf/dist');function F(e,r,i){return t(e)||t(r)||t(i)||!f(r)||!f(i)||r>i?NaN:e<r?p:e>=i?0:v(d(e)-r+1)-v(i-r+1)}s.exports=F
+});var g=o(function(A,l){
+var m=require('@stdlib/utils-constant-function/dist'),c=require('@stdlib/math-base-assert-is-integer/dist'),u=require('@stdlib/math-base-assert-is-nan/dist'),O=require('@stdlib/math-base-special-floor/dist'),N=require('@stdlib/math-base-special-ln/dist'),R=require('@stdlib/constants-float64-ninf/dist');function h(e,r){var i,a;if(u(e)||u(r)||!c(e)||!c(r)||e>r)return m(NaN);return a=e-1,i=N(r-e+1),I;function I(n){return u(n)?NaN:n<e?R:n>=r?0:N(O(n)-a)-i}}l.exports=h
+});var j=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),y=q(),k=g();j(y,"factory",k);module.exports=y;
 /** @license Apache-2.0 */
-
-'use strict';
-
-/**
-* Natural logarithm of the cumulative distribution function (CDF) for a discrete uniform distribution.
-*
-* @module @stdlib/stats-base-dists-discrete-uniform-logcdf
-*
-* @example
-* var logcdf = require( '@stdlib/stats-base-dists-discrete-uniform-logcdf' );
-*
-* var y = logcdf( 3.0, 0, 4 );
-* // returns ~-0.223
-*
-* var mylogcdf = logcdf.factory( 0, 10 );
-* y = mylogcdf( 0.5 );
-* // returns ~-2.398
-*
-* y = mylogcdf( 8.0 );
-* // returns ~-0.201
-*/
-
-// MODULES //
-
-var setReadOnly = require( '@stdlib/utils-define-nonenumerable-read-only-property/dist' );
-var main = require( './main.js' );
-var factory = require( './factory.js' );
-
-
-// MAIN //
-
-setReadOnly( main, 'factory', factory );
-
-
-// EXPORTS //
-
-module.exports = main;
+//# sourceMappingURL=index.js.map
