@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-14)
+## Unreleased (2025-06-22)
+
+<section class="features">
+
+### Features
+
+-   [`373cd28`](https://github.com/stdlib-js/stdlib/commit/373cd289aed0e8c43cbdb32a4c69f02ef1c22f7a) - add C implementation for `stats/base/dists/discrete-uniform/logcdf` [(#4644)](https://github.com/stdlib-js/stdlib/pull/4644)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3552](https://github.com/stdlib-js/stdlib/issues/3552)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`373cd28`](https://github.com/stdlib-js/stdlib/commit/373cd289aed0e8c43cbdb32a4c69f02ef1c22f7a) - **feat:** add C implementation for `stats/base/dists/discrete-uniform/logcdf` [(#4644)](https://github.com/stdlib-js/stdlib/pull/4644) _(by Prashant Kumar Yadav, Philipp Burckhardt)_
 -   [`13c0b92`](https://github.com/stdlib-js/stdlib/commit/13c0b92efadf3a6d4c83322c32ebc4071950b403) - **bench:** refactor random number generation in `stats/base/dists/discrete-uniform` [(#4887)](https://github.com/stdlib-js/stdlib/pull/4887) _(by Karan Anand)_
 
 </details>
@@ -24,9 +47,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
+-   Prashant Kumar Yadav
 
 </section>
 
