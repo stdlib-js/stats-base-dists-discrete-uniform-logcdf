@@ -65,13 +65,13 @@ where `a` is the minimum support and `b` is the maximum support. The parameters 
 ## Usage
 
 ```javascript
-import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-logcdf@esm/index.mjs';
+import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-logcdf@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-logcdf@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-logcdf@v0.3.0-esm/index.mjs';
 ```
 
 #### logcdf( x, a, b )
@@ -150,7 +150,7 @@ y = myLogCDF( 8.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-logcdf@esm/index.mjs';
+import logcdf from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-discrete-uniform-logcdf@v0.3.0-esm/index.mjs';
 
 var x = uniform( 10, -10.0, 10.0 );
 var a = discreteUniform( 10, -10, 0 );
