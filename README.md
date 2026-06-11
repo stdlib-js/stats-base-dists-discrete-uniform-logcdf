@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> [Discrete uniform][discrete-uniform-distribution] distribution logarithm of [cumulative distribution function][cdf].
+> [Discrete uniform][discrete-uniform-distribution] distribution natural logarithm of [cumulative distribution function][cdf].
 
 <section class="intro">
 
@@ -308,6 +308,11 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
 Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
@@ -353,6 +358,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-logcdf/tree/esm
 [esm-readme]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-logcdf/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform-logcdf/blob/main/branches.md
+
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dists-discrete-uniform-logcdf/main/LICENSE
 
 [cdf]: https://en.wikipedia.org/wiki/Cumulative_distribution_function
 
