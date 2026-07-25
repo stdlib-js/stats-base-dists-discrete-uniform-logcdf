@@ -96,7 +96,8 @@
     "logarithm",
     "log",
     "ln",
-    "natural"
+    "natural",
+    "univariate"
   ],
   "funding": {
     "type": "opencollective",
